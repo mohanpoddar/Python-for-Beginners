@@ -1,4 +1,4 @@
-## How to use:
+# How to use:
 
 ## Change to the location or path where python programme exist before runnig the script. 
 
