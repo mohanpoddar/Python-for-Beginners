@@ -1,2 +1,3 @@
-# python
-Learn python
+# Python
+- Learn Python..!!!
+- Happy Learning..!!!
