@@ -1,0 +1,55 @@
+#!/usr/bin/python
+
+# Understanding Types of variables in Python - str (String)
+
+>>> type("apple")			# apple is a sequence of characters.
+<class 'str'>				# So, Data Type is 'str'	
+>>> type('apple')
+<class 'str'>
+>>>
+>>> type('a')
+<class 'str'>
+>>>
+>>> Greet = "Hello Python"
+>>> type(Greet)
+<class 'str'>
+>>>
+>>> print(Greet)
+Hello Python
+>>>
+
+>>> type("10")				# Data inside " " is string
+<class 'str'>
+>>>
+>>> type('15')				# Data inside ' ' is string
+<class 'str'>
+>>>
+>>> type('computer')			# Data inside single, double or tripple quote has type 'str'
+<class 'str'>
+>>> type("computer")
+<class 'str'>
+>>>
+>>> type('"computer"')
+<class 'str'>
+>>>
+
+>>> x = "12"				# Any Data inside single, double or tripple quote has type 'str'
+>>> x
+'12'
+>>> type(x)
+<class 'str'>
+>>>
+>>> y = "16"
+>>> y
+'16'
+>>> type(y)
+<class 'str'>
+>>>
+>>> z = x + y
+>>> z
+'1216'
+>>> type(z)
+<class 'str'>
+>>>
+
+
