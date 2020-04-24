@@ -9,11 +9,11 @@
 
 
 ###### There are different Data Types of variable/object in python-
-'''
+```
 (i) Number:-
      - int(integer)
      - float (floating point numbers)
      - Complex Numbers
 
-'''
+```
 End of this Chapter. Happy Learning..!!!
