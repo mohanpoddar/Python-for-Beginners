@@ -1,0 +1,34 @@
+#!/usr/bin/python
+
+# Understanding Types of variables in Python - None
+
+>>>
+>>> x = 15
+>>> y = None						# Data value is None
+>>> x
+15
+>>> y
+>>> type(x)
+<class 'int'>
+>>> type(y)
+<class 'NoneType'>					# Data type when value is None
+>>> print(x)
+15
+>>> print(y)
+None
+>>>
+>>> print("Panda is a python library.")
+Panda is a python library.
+>>>
+>>> panda = print("Panda is a python library.")
+Panda is a python library.
+>>>
+>>> print(panda)					# No value is assigned to panda variable.
+None
+>>> type(panda)						# Hence, data type is 'NoneType'
+<class 'NoneType'>
+>>>
+>>> type(None)						# Data type of None
+<class 'NoneType'>
+>>>
+
