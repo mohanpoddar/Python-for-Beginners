@@ -7,7 +7,6 @@
 `Identity of the Variable:` When a variable in python is assigned a value then it is stored inside a memory location. Hence, it referes address in the memory which does not change once it has been created. This can be checked using the method id(object)
 
 
-
 `Data Types:` There are different Data Types of variable/object in python-
 ```
 (i) Number:-
