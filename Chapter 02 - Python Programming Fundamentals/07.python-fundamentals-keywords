@@ -1,0 +1,36 @@
+#!/usr/bin/python
+
+# Understanding Keywords in Python. Keywords are reserverd words used by python interpreter to recognize the structure of a program. 
+
+# Go to the python intrective shell
+
+>>> import keyword
+>>> dir(keyword)
+['__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'iskeyword', 'kwlist', 'main']
+>>>
+>>> print(keyword.kwlist)				# Keywords list of your python installed.
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>>
+
+# Keywords cannot be used as a variable.
+
+>>> global = "Python is used globally"
+  File "<stdin>", line 1
+    global = "Python is used globally"			# global is a keyword so cannot be used as a variable.
+           ^
+SyntaxError: invalid syntax
+>>>
+>>> Global = "Python is used globally"
+>>>
+>>> print(Global)
+Python is used globally
+>>>
+>>> type(global)
+  File "<stdin>", line 1
+    type(global)
+              ^
+SyntaxError: invalid syntax
+>>>
+>>> type(Global)
+<class 'str'>
+>>>

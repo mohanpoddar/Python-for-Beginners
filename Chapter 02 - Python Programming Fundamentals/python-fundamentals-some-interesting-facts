@@ -1,0 +1,36 @@
+#!/usr/bin/python
+
+# Know more facts about Data Typesin python
+
+# Go to the python intrective shell
+
+>>> type(print)
+<class 'builtin_function_or_method'>
+>>>
+>>> type(type)
+<class 'type'>
+>>>
+>>> type(id)
+<class 'builtin_function_or_method'>
+>>>
+>>> type(int)
+<class 'type'>
+>>>
+>>> type(float)
+<class 'type'>
+>>>
+>>> type(str)
+<class 'type'>
+>>>
+>>> type(bool)
+<class 'type'>
+>>>
+>>> type(True)
+<class 'bool'>
+>>>
+>>> type(False)
+<class 'bool'>
+>>>
+>>> type(None)
+<class 'NoneType'>
+>>>
