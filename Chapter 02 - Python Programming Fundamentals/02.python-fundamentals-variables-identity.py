@@ -28,7 +28,7 @@ which does not change once it has been created. This can be checked using the me
 >>> x = 12		
 >>> x
 12
->>> id(x)		# When value is change it's id of the variable is also changed.
+>>> id(x)		# When value is changed it's id of the variable is also changed.
 140412903970848
 >>>
 >>> y = 14
@@ -46,7 +46,7 @@ which does not change once it has been created. This can be checked using the me
 >>> x = 12		
 >>> x
 12
->>> id(x)		# When same value is re-assigned then id remains changed.
+>>> id(x)		# When same value is re-assigned then id remains unchanged.
 140412903970848
 >>>
 >>> y = 14
