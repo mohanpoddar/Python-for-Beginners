@@ -11,13 +11,14 @@
 #### Data Types: There are different Data Types of variable/object in python-
 ```
 (i) Number:-
-      - int(integer)
-      - float (floating point numbers)
+      - int (Integer)
+      - float (Floating Point Numbers)
 
 (ii) str (String)
 
-(iii) bool (Bollean) 
-```
+(iii) bool (Boolean)
 
+(iV) None 
+```
 
 End of this Chapter. Happy Learning..!!!
