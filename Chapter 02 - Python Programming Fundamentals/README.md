@@ -9,7 +9,7 @@
 
 
 `Data Types:` There are different Data Types of variable/object in python-
-``
+```
 (i) Number:-
       - int (Integer)
       - float (Floating Point Numbers)
@@ -19,6 +19,6 @@
 (iii) bool (Boolean)
 
 (iV) None 
-``
+```
 
 End of this Chapter. Happy Learning..!!!
