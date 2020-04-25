@@ -8,12 +8,16 @@
 
 
 
-#### There are different Data Types of variable/object in python-
+#### Data Types: There are different Data Types of variable/object in python-
 ```
 (i) Number:-
-     - int(integer)
-     - float (floating point numbers)
-     - Complex Numbers
+      - int(integer)
+      - float (floating point numbers)
 
+(ii) str (String)
+
+(iii) bool (Bollean) 
 ```
+
+
 End of this Chapter. Happy Learning..!!!
