@@ -8,7 +8,7 @@
 
 
 
-###### There are different Data Types of variable/object in python-
+#### There are different Data Types of variable/object in python-
 ```
 (i) Number:-
      - int(integer)
