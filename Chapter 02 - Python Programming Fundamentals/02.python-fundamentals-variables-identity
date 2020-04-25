@@ -7,6 +7,8 @@ When a variable in python is assigned a value then it is stored inside a memory 
 which does not change once it has been created. This can be checked using the method id(object) 
 """
 
+# Go to the python intrective shell
+
 >>> x = 5		# Variable x with value 5 is stored inside a memory loction with name x.
 >>> x
 5

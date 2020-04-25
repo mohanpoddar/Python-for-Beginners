@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
-# Understanding Types of variables in Python - bool (Boolean)
+# Understanding Data Types in Python - bool (Boolean)
+
+# Go to the python intrective shell
 
 >>> 5 > 2				# Only one of two possible value either True or False is called boolean
 True					# Boolean value

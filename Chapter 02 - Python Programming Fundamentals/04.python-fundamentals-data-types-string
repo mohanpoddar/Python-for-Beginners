@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
-# Understanding Types of variables in Python - str (String)
+# Understanding Data Types in Python - str (String)
+
+# Go to the python intrective shell
 
 >>> type("apple")			# apple is a sequence of characters.
 <class 'str'>				# So, Data Type is 'str'	
@@ -51,5 +53,3 @@ Hello Python
 >>> type(z)
 <class 'str'>
 >>>
-
-

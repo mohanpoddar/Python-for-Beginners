@@ -3,6 +3,7 @@
 # Understanding Variables in Python 
 
 # Go to the python intrective shell
+
 >>> x = 5			# Here variabe x has been assigned a value 5
 >>> x				# Variable can be directly printed by typing just x and hit enter.
 5

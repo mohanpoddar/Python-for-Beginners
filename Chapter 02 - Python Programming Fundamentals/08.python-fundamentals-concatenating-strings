@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+# Understanding Keywords in Python. Keywords are reserverd words used by python interpreter to recognize the structure of a program. 
+
+# Go to the python intrective shell
+
+>>> "Hello" + "World"
+'HelloWorld'
+>>>
+>>> "What" + "is" + "your" + "name?"
+'Whatisyourname?'
+>>>
+>>> 'python' * 5
+'pythonpythonpythonpythonpython'
+>>>
+
+>>> x = 5
+>>> print("Age of Suresh is:", x, "years")
+Age of Suresh is: 5 years
+>>>

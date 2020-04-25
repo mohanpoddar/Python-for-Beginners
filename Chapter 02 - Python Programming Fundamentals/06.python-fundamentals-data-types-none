@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
-# Understanding Types of variables in Python - None
+# Understanding Data Types in Python - None
+
+# Go to the python intrective shell
 
 >>>
 >>> x = 15

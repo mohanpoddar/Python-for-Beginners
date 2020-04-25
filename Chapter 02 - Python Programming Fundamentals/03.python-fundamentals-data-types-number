@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Understanding Types of variables in Python
+# Understanding Daat Types 'Number' in Python
 """
 There are different Data Types of variable/object in python-
 (i) Number:-
@@ -11,6 +11,9 @@ There are different Data Types of variable/object in python-
 """
 
 # Understanding Data Types - int(integer)
+
+# Go to the python intrective shell
+
 >>> 10
 10
 >>> type(-15)
