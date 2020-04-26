@@ -7,6 +7,8 @@ Go to your terminal and type python command and hit Enter to get python interect
 
 # Print function - print() is an inbuilt function in python to print output on console window.
 
+:--------------------------------------------------------------------------------------------:
+
 $ python                                # Hit "Enter" to get the python shell.
 Python 3.6.8 (default, Aug  7 2019, 17:28:10)
 [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)] on linux
@@ -109,6 +111,5 @@ a       e       i       o       u
 
 :--------------------------------------------------------------------------------------------:
 >>>
-
 
 # Note: Now let's write some simple python programme in next sequence to understand print() function.
