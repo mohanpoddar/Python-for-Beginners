@@ -4,24 +4,29 @@
 
 Use command `python <script-name.py>` to run the python script. 
 
-01.hello-world_first_programme.py
+01.python-getting-started-hello-world.txt
 ```
-$ python 01.hello-world_first_programme.py
-```
-
-02.python-print-statement.py
-```
-$ python 02.python-print-statement.py
+This is to be run in python interective shell to be familiarize with python. Run the commands as given.
 ```
 
-03.python-print-math-calculations.py
+02.hello-world_first_programme.py
 ```
-$ python 03.python-print-math-calculations.py
+$ python 02.hello-world_first_programme.py
+```
+
+03.python-print-statement.py
+```
+$ python 03.python-print-statement.py
 ```
 
 04.python-print-syntax.py
 ```
 $ python 04.python-print-syntax.py
+```
+
+05.python-print-math-calculations.py
+```
+$ python 05.python-print-math-calculations.py
 ```
 
 End of this Chapter. Happy Learning..!!!
