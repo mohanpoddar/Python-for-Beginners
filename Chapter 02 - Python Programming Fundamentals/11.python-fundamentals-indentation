@@ -1,0 +1,9 @@
+# Understanding of Indentation In Python:
+
+A(Start)
+ B(Under A)
+ C(Under A, at the same level as B)
+  D(Under C)
+  E(Under C, at the same level as D)
+ F(Under A, at the same level as B and C)
+G(At the same level as A)
