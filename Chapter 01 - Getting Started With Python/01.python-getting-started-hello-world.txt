@@ -1,7 +1,7 @@
 # Just getting started in Python 
 
 '''
-Go to the python interective shell. 
+Get python interective shell. 
 Go to your terminal and type python command and hit Enter to get python interective prompt.
 '''
 
