@@ -4,11 +4,7 @@
 
 # A programme to accept percentage of a student and display grade.
 
-import time
-
 #:-------------------------------------------- Prog. - 01 --------------------------------------------:
-#print("Running programme : Prog. - 01")
-
 percentage = float(input("Enter Your Percentage in a Subject: "))
 print()
 
