@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Understanding Python loops - loop
+# Understanding Python loops - for loop
 
 import time
 
