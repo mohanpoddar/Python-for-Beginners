@@ -6,5 +6,7 @@ import time
 
 #:-------------------------------------------- Prog. - 01 --------------------------------------------:
 for country in 'India':
-    print("Welcome to", country)   
+    pass   
 print()
+
+
