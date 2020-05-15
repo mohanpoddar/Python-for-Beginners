@@ -1,0 +1,38 @@
+#!/usr/bin/python
+
+# Understanding Python List - python list creation from existing list
+
+#:-------------------------------------------- Concept Continue... --------------------------------------------:
+$ python
+Python 3.6.8 (default, Apr  2 2020, 13:34:55)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-39)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>>
+>>> vowel = ['a', 'e' , 'i' , 'o' , 'u']
+>>> vowel
+['a', 'e', 'i', 'o', 'u']
+>>> type(vowel)
+<class 'list'>
+>>>
+>>> vowel1 = vowel[:]
+>>> vowel1
+['a', 'e', 'i', 'o', 'u']
+>>> type(vowel1)
+<class 'list'>
+>>>
+>>> vowel2 = vowel[1:4]
+>>> vowel2
+['e', 'i', 'o']
+>>> type(vowel2)
+<class 'list'>
+>>>
+>>> vowel3 = vowel
+>>> vowel3
+['a', 'e', 'i', 'o', 'u']
+>>> type(vowel3)
+<class 'list'>
+>>>
+>>>
+
