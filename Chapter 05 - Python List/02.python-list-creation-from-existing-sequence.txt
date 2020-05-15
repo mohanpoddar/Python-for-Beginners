@@ -1,0 +1,54 @@
+#!/usr/bin/python
+
+# Understanding Python List - python list creation from existing sequence
+
+#:-------------------------------------------- Concept Continue... --------------------------------------------:
+$ python
+Python 3.6.8 (default, Apr  2 2020, 13:34:55)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-39)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> device = list('Computer')
+>>> device
+['C', 'o', 'm', 'p', 'u', 't', 'e', 'r']
+>>> print(device)
+['C', 'o', 'm', 'p', 'u', 't', 'e', 'r']
+>>>
+>>> type(device)
+<class 'list'>
+>>>
+
+#:-------------------------------------------- Concept Continue... --------------------------------------------:
+# Accept input and convert into a list using list()
+>>> DOB = "1998-08-12"
+>>> list(DOB)
+['1', '9', '9', '8', '-', '0', '8', '-', '1', '2']
+>>>
+>>> os = "Linux"
+>>> list(os)
+['L', 'i', 'n', 'u', 'x']
+>>>
+>>> type(os)
+<class 'str'>
+>>>
+
+#:-------------------------------------------- Empty List --------------------------------------------:
+# Create an empty list
+>>> nolist = list()
+>>> nolist
+[]                                                # Empty list
+>>> type(nolist)
+<class 'list'>
+>>>
+
+#:-------------------------------------------- List using input --------------------------------------------:
+# Creating a list using user input using list() method
+>>> mylist = list(input("Enter the values for my list: "))
+Enter the values for my list: Python is Awesome!!
+>>> mylist
+['P', 'y', 't', 'h', 'o', 'n', ' ', 'i', 's', ' ', 'A', 'w', 'e', 's', 'o', 'm', 'e', '!', '!']
+>>>
+>>> type(mylist)
+<class 'list'>
+>>>

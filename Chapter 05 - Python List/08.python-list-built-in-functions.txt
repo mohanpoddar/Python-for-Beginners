@@ -1,0 +1,118 @@
+#!/usr/bin/python
+
+# Understanding Python List - list built in functions 
+
+#:------------------------------ append() ------------------------------:
+>>> num = [10, 20 , 30, 40]
+>>> os = ['Linux', 'Solaris', 'AIX', 'Windows']
+
+>>> num.append(50)
+>>> print(num)
+[10, 20, 30, 40, 50]
+
+>>> os.append('Android')
+>>> print(os)
+['Linux', 'Solaris', 'AIX', 'Windows', 'Android']
+>>>
+
+#:------------------------------ extend() ------------------------------:
+>>> num = [1, 3, 5, 7]
+>>> even = [2, 4, 6, 8]
+>>> num.extend(even)
+>>> print(num)
+[1, 3, 5, 7, 2, 4, 6, 8]
+>>>
+
+#:------------------------------ insert() ------------------------------:
+>>> vowel = ['a', 'e', 'o', 'u']
+>>> print(vowel)
+['a', 'e', 'o', 'u']
+>>>
+>>> vowel.insert(2, 'i')
+>>> print(vowel)
+['a', 'e', 'i', 'o', 'u']
+>>>
+
+#:------------------------------ reverse() ------------------------------:
+>>> vowel = ['a', 'e', 'i', 'o', 'u']
+>>> vowel
+['a', 'e', 'i', 'o', 'u']
+>>>
+>>> vowel.reverse()
+>>> vowel
+['u', 'o', 'i', 'e', 'a']
+>>>
+
+#:------------------------------ index() ------------------------------:
+>>>
+>>> vowel = ['a', 'e', 'i', 'o', 'u']
+>>> vowel.index('i')
+2
+>>> print(vowel.index('i'))
+2
+>>>
+
+#:------------------------------ update() ------------------------------:
+>>> vowel = ['a', 'e', 's', 'o', 'u']
+>>> vowel[2] = 'i'
+>>> print(vowel)
+['a', 'e', 'i', 'o', 'u']
+>>>
+
+#:------------------------------ len() ------------------------------:
+>>> vowel = ['a', 'e', 'i', 'o', 'u']
+>>> print(len(vowel))
+5
+>>>
+
+#:------------------------------ sort() ------------------------------:
+>>>
+>>> num = [65, 34, 56, 12, 8, 23, 5, 67]
+>>> num.sort()
+>>> print(num)
+[5, 8, 12, 23, 34, 56, 65, 67]
+>>>
+>>> colour = ['RED', 'YELLOW', 'BLUE', 'WHITE']
+>>> colour.sort()
+>>> print(colour)
+['BLUE', 'RED', 'WHITE', 'YELLOW']
+>>>
+>>> os = ['Linux', 'AIX', 'Windows', 'Solaris', 'Android']
+>>> os.sort()
+>>> print(os)
+['AIX', 'Android', 'Linux', 'Solaris', 'Windows']
+>>>
+>>>
+
+#:------------------------------ clear() ------------------------------:
+>>> os = ['RedHat', 'AIX', 'Windows', 'Solaris', 'Android']
+>>> print(os)
+['RedHat', 'AIX', 'Windows', 'Solaris', 'Android']
+>>>
+>>> os.clear()
+>>> print(os)
+[]
+>>>
+
+
+#:------------------------------ count() ------------------------------:
+>>> os = ['RedHat', 'AIX', 'Windows', 'Solaris', 'Android']
+>>> print(os)
+['RedHat', 'AIX', 'Windows', 'Solaris', 'Android']
+>>>
+>>> os.count('AIX')
+1
+>>>
+
+>>> num = [12, 4, 8, 12, 6, 4, 12, 7, 9]
+>>> num.count(4)
+2
+>>> num.count(12)
+3
+>>> num.count(8)
+1
+>>>
+
+
+
+

@@ -1,0 +1,66 @@
+#!/usr/bin/python
+
+# Understanding Python List - Python list basics. Declearing and Creating List.
+
+#:-------------------------------------------- Concept --------------------------------------------:
+$ python
+Python 3.6.8 (default, Apr  2 2020, 13:34:55)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-39)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> print("Understanding lython list basics. Declearing and Creating List.")
+Understanding lython list basics. Declearing and Creating List.
+>>>
+>>>
+>>> list = [1,2,3,4,5,6,7,8,9,10]                               # list of Integers
+>>> list
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> print(list)
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> type(list)
+<class 'list'>
+>>>
+>>>
+>>> country = ['India' , 'US' , 'UK' , 'Australia' , 'Nepal']   # list of Strings
+>>> print(country)
+['India', 'US', 'UK', 'Australia', 'Nepal']
+>>> type(country)
+<class 'list'>
+>>>
+>>>
+>>> country = [India , US , UK , Australia , Nepal]             # List creation failing if string not in single or double quote
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'India' is not defined
+>>>
+>>>
+>>> vowel = ['a','e','i','o','u']                               # list of characters
+>>> vowel
+['a', 'e', 'i', 'o', 'u']
+>>> type(vowel)
+<class 'list'>
+>>>
+>>>
+>>> list1 = [1,2,'India',"UK",'a',-10]                          # list with elements of different data types
+>>> list1
+[1, 2, 'India', 'UK', 'a', -10]
+>>> type(list1)
+<class 'list'>
+>>>
+>>>
+>>> list2 = [2,4,6,[8,10,12],14,[16,18],20]                     # Nested lists - list containing another list as an element.
+>>> list2
+[2, 4, 6, [8, 10, 12], 14, [16, 18], 20]
+>>> type(list2)
+<class 'list'>
+>>>
+>>>
+
+#:-------------------------------------------- Empty List --------------------------------------------:
+>>> emptylist = []                                              # Empty List Creation
+>>> emptylist
+[]
+>>> type(emptylist)
+<class 'list'>
+>>>
+>>>

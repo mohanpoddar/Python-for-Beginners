@@ -1,0 +1,63 @@
+#!/usr/bin/python
+
+# Understanding Python List - python list index
+
+#:-------------------------------------------- Concept Continue... --------------------------------------------:
+$ python
+Python 3.6.8 (default, Apr  2 2020, 13:34:55)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-39)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> table10 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+>>> table10
+[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+>>>
+>>> type(table10)
+<class 'list'>
+>>>
+
+#:------------------ Access Elements using Positive Index ------------------:
+>>> table10[0]
+10
+>>> table10[1]
+20
+>>> table10[2]
+30
+>>> table10[3]
+40
+>>> table10[4]
+50
+>>> table10[5]
+60
+>>> table10[6]
+70
+>>> table10[7]
+80
+>>> table10[8]
+90
+>>> table10[9]
+100
+>>>
+
+#:------------------ Access Elements using Negative Index ------------------:
+>>> table10[-1]
+100
+>>> table10[-2]
+90
+>>> table10[-3]
+80
+>>> table10[-4]
+70
+>>> table10[-5]
+60
+>>> table10[-6]
+50
+>>> table10[-7]
+40
+>>> table10[-8]
+30
+>>> table10[-9]
+20
+>>> table10[-10]
+10
+>>>
