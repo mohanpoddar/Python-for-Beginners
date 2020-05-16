@@ -1,0 +1,94 @@
+#!/usr/bin/python
+
+# Understanding Python dictionary. - Python dictionary. basics. Declearing and Creating dictionary..
+
+#:-------------------------------------------- Create Empty Dictionary --------------------------------------------:
+# Create Empty Dictionary 
+>>>
+>>> d = { }                               # Create an empty dictionary
+>>> d                                     # Print a dictionary
+{}
+>>> print(d)                              # Print a dictionary
+{}
+>>> type(d)                               # Verify type of the dictionary
+<class 'dict'>
+>>>
+>>>
+
+#:--------------------------- Create Dictionary ---------------------------:
+#Create New Dictionary with 'key:value'
+>>> subject = {'Science':'Physics', 'Language':'English', 'Commerce':'Accounts', 'Dance':'Bharatanatyam', 'Music':'Synthesizer'}
+>>> subject
+{'Science': 'Physics', 'Language': 'English', 'Commerce': 'Accounts', 'Dance': 'Bharatanatyam', 'Music': 'Synthesizer'}
+>>> print(subject)
+{'Science': 'Physics', 'Language': 'English', 'Commerce': 'Accounts', 'Dance': 'Bharatanatyam', 'Music': 'Synthesizer'}
+>>> type(subject)
+<class 'dict'>
+>>>
+
+#:--------------------------- Create Empty Dictionary and Add Item ---------------------------:
+# Create Empty Dictionary and Add Item
+>>> Day = dict()
+>>> Day
+{}
+>>> print(Day)
+{}
+>>> type(Day)
+<class 'dict'>
+>>>
+
+# Now Start adding the items of Day
+>>>
+>>> Day[1] = 'Monday'                     # Add first element in dictionary with key 1 and value Monday
+>>> print(Day)
+{1: 'Monday'}
+>>>
+>>> Day[2] = 'Tuesday'
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday'}
+>>>
+>>> Day[3] = 'Wednesday'
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday'}
+>>>
+>>> Day[4] = 'Thursday'
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday'}
+>>>
+>>> Day[5] = 'Friday'
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday'}
+>>>
+>>> Day[6] = 'Saturday'
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
+>>>
+>>> Day[7] = "Sunday"
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>>
+
+#:--------------------------- Access Dictionary ---------------------------:
+# Access Dictionary
+>>> computer = {'input':'keyboard', 'processing':'processor', 'output':'Monitor', 'os':'Redhat', 'language':'python'}
+>>> computer
+{'input': 'keyboard', 'processing': 'processor', 'output': 'Monitor', 'os': 'Redhat', 'language': 'python'}
+>>> print(computer)
+{'input': 'keyboard', 'processing': 'processor', 'output': 'Monitor', 'os': 'Redhat', 'language': 'python'}
+>>> type(computer)
+<class 'dict'>
+>>>
+
+>>> print(computer['input'])                      # Access key input of dictionary
+keyboard
+
+>>> print(computer['os'])                         # Access key os of dictionary
+Redhat
+
+>>> print(computer['os'],computer['language'])    # Access key os and language of dictionary
+Redhat python
+>>>

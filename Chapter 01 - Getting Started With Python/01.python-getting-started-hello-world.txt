@@ -67,7 +67,6 @@ Python is Easy to Use and Understand...
 >>> 
 >>> print("\n")                     # Print a new line
 
-
 >>>
 >>> print("I like Python.")
 I like Python.
@@ -111,6 +110,9 @@ a       e       i       o       u
 8
 >>>
 
+:-----------------------------------Clear Screen----------------------------------------------------:
+>>>
+>>> Ctrl + l                            # Clear Python screen
+>>>
 :--------------------------------------------------------------------------------------------:
-
 # Note: Now let's write some simple python programme in next sequence to understand print() function.

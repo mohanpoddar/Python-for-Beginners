@@ -1,0 +1,87 @@
+#!/usr/bin/python
+
+# Understanding Python List - list built in functions 
+
+#:------------------------------ pop() ------------------------------:
+# pop() - Removes the element from the specified index and also returns the element which was removed.
+>>> num = [10, 20, 30, 40, 50, 60]
+>>> print(num)
+[10, 20, 30, 40, 50, 60]
+>>>
+>>> num.pop(1)                      # Remove element at index 1
+20                                  # Returns the deleted element.
+>>> print(num)
+[10, 30, 40, 50, 60]
+>>>
+>>>
+>>> num.pop()                       # If no index value is provided in pop() , then last statment is deleted.
+60
+>>> print(num)
+[10, 30, 40, 50]
+>>>
+>>>
+>>> x = num.pop(2)                  # Element deleted at index 2 will be returned to 'x'
+>>> print(x)
+40
+>>> print(num)
+[10, 30, 50]
+>>>
+>>> num.pop(-1)                     # Last Element deleted 
+50
+>>> print(num)
+[10, 30]
+>>>
+>>>
+>>> num.pop(-2)                     # 02nd last element is deleted.
+10
+>>> print(num)
+[30]
+>>>
+>>> num.pop()                       # Single element in the list deleted.
+30
+>>> print(num)
+[]
+>>>
+
+#:------------------------------ del statment ------------------------------:
+# 'del' statment removes the specified element from the list, but does not return the deleted element.
+>>>
+>>> num = [5, 10, 15, 20, 25, 30, 35, 40 , 45, 50]
+>>> print(num)
+[5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+>>>
+>>> del num[1]                              # Remove element at index 1 i.e 10
+>>> print(num)
+[5, 15, 20, 25, 30, 35, 40, 45, 50]         
+>>>
+>>> del num[-2]                             # Remove element at 02nd last index i.e 45 
+>>> print(num)
+[5, 15, 20, 25, 30, 35, 40, 50]
+>>>
+>>> del num[2:4]                            # Remove 02nd and 03rd element.
+>>> print(num)
+[5, 15, 30, 35, 40, 50]
+>>>
+
+#:------------------------------ remove () ------------------------------:
+# remove() function is used when element to be deleted not the index of the element.
+>>> num = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+>>> print(num)
+[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+>>>
+>>> num.remove(8)                           # Element 8 to be deleted. Not the element at index 8
+>>> print(num)
+[2, 4, 6, 10, 12, 14, 16, 18, 20]
+>>>
+>>> num.remove(4)                           # Element 4 to be deleted. Not the element at index 4
+>>> print(num)
+[2, 6, 10, 12, 14, 16, 18, 20]
+>>>
+>>> num.remove(3)                           # Runtime error as no element 3 in the list.
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+>>>
+
+
+
