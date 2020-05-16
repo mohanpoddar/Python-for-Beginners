@@ -17,47 +17,47 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 
 #:------------------ Access Elements using Positive Index ------------------:
->>> table10[0]
+>>> table10[0]                      # Access element at index 0 from begining.
 10
->>> table10[1]
+>>> table10[1]                      # Access element at index 1 from begining.
 20
->>> table10[2]
+>>> table10[2]                      # Access element at index 2 from begining.
 30
->>> table10[3]
+>>> table10[3]                      # Access element at index 3 from begining.
 40
->>> table10[4]
-50
->>> table10[5]
+>>> table10[4]                      # Access element at index 4 from begining.
+50  
+>>> table10[5]                      # Access element at index 5 from begining.
 60
->>> table10[6]
+>>> table10[6]                      # Access element at index 6 from begining.
 70
->>> table10[7]
+>>> table10[7]                      # Access element at index 7 from begining.
 80
->>> table10[8]
+>>> table10[8]                      # Access element at index 8 from begining.
 90
->>> table10[9]
+>>> table10[9]                      # Access element at index 9 from begining.
 100
 >>>
 
 #:------------------ Access Elements using Negative Index ------------------:
->>> table10[-1]
+>>> table10[-1]                     # Access element indexed at last index.
 100
->>> table10[-2]
+>>> table10[-2]                     # Access element indexed at 02nd last index.
 90
->>> table10[-3]
+>>> table10[-3]                     # Access element indexed at 03rd last index.
 80
->>> table10[-4]
+>>> table10[-4]                     # Access element indexed at 04th last index.
 70
->>> table10[-5]
+>>> table10[-5]                     # Access element indexed at 05th last index.
 60
->>> table10[-6]
+>>> table10[-6]                     # Access element indexed at 06th last index.
 50
->>> table10[-7]
+>>> table10[-7]                     # Access element indexed at 07th last index.
 40
->>> table10[-8]
+>>> table10[-8]                     # Access element indexed at 08th last index.
 30
->>> table10[-9]
+>>> table10[-9]                     # Access element indexed at 09th last index.
 20
->>> table10[-10]
+>>> table10[-10]                    # Access element indexed at 10th last index.
 10
 >>>

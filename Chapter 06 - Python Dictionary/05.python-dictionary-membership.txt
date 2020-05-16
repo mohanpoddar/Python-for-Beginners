@@ -1,0 +1,34 @@
+#!/usr/bin/python
+
+# Understanding Python Dictionary - Dictionary Membership
+
+#:-------------------------------------------- Dictionary Membership --------------------------------------------:
+'''
+* Check Dictionary Membership
+* Membership 'in' applies only to the keys in the dictionary.
+'''
+
+>>> computer = {'input':'keyboard', 'processing':'processor', 'output':'Monitor', 'os':'Redhat', 'language':'python'}
+>>> print(computer)
+{'input': 'keyboard', 'processing': 'processor', 'output': 'Monitor', 'os': 'Redhat', 'language': 'python'}
+>>>
+>>> 'input' in computer                 # Check if input is a member of computer dictionary.
+True
+>>>
+>>> 'os' in computer                    # Check if os is a member of computer dictionary.
+True
+>>>
+>>> 'python' in computer                # Check if python is a member of computer dictionary. Membership 'in' applies only to the keys in the dictionary.
+False
+>>>
+>>> 'httpd' in computer                 # Check if httpd is a member of computer dictionary.
+False
+>>>
+>>> 'python' not in computer            # Check if python is not a member of computer dictionary.
+True
+>>> 'httpd' not in computer             # Check if httpd is not a member of computer dictionary.
+True
+>>>
+>>> 'output' not in computer            # Check if output is not a member of computer dictionary.
+False
+>>>

@@ -1,0 +1,46 @@
+#!/usr/bin/python
+
+# Understanding Python Dictionary - Dictionary functions
+
+#:-------------------------------------------- Dictionary functions --------------------------------------------:
+
+>>> computer = {'input':'keyboard', 'processing':'processor', 'output':'Monitor', 'os':'Redhat', 'language':'python'}
+>>> print(computer)
+{'input': 'keyboard', 'processing': 'processor', 'output': 'Monitor', 'os': 'Redhat', 'language': 'python'}
+>>>
+
+#:-------------------------------------------- len () --------------------------------------------:
+# Check length of dictionary
+>>> len(computer)
+5
+>>>
+
+#:-------------------------------------------- items () --------------------------------------------:
+# Check items of dictionary
+>>> computer.items()
+dict_items([('input', 'keyboard'), ('processing', 'processor'), ('output', 'Monitor'), ('os', 'Redhat'), ('language', 'python')])
+>>>
+>>>
+
+#:-------------------------------------------- keys () --------------------------------------------:
+# Check keys of dictionary key-value pair
+>>>
+>>> computer.keys()
+dict_keys(['input', 'processing', 'output', 'os', 'language'])
+>>>
+
+#:-------------------------------------------- values () --------------------------------------------:
+# Check values of dictionary key-value pair
+>>> computer.values()
+dict_values(['keyboard', 'processor', 'Monitor', 'Redhat', 'python'])
+>>>
+
+#:-------------------------------------------- clear () --------------------------------------------:
+# Remove all items of dictionary
+>>> computer.clear()
+>>> print(computer)
+{}
+>>>
+>>> type(computer)
+<class 'dict'>
+>>>

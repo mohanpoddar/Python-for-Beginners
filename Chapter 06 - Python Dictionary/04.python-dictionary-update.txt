@@ -1,0 +1,105 @@
+#!/usr/bin/python
+
+# Understanding Python Dictionary - Update Dictionary
+
+#:-------------------------------------------- Appending Elements--------------------------------------------:
+# Appending Values in a Dictionary
+>>>
+>>> Day = {1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday'}
+>>>
+>>> Day[7] = 'Sunday'                  # Append Dictionary with new element.
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>>
+
+# Used to update value of a key
+>>> d1 = {1:5, 2:10, 3:15}
+>>> d1[2]=48                        # Will update valyue of key 2
+>>> d1
+{1: 5, 2: 48, 3: 15}
+>>>
+
+
+#:-------------------------------------------- Updating Elements --------------------------------------------:
+# Updating Elements in a Dictionary
+>>> Day = {1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day[1] = 'Sunday'                   # Updating key 1 in Dictionary with new value.
+>>> print(Day)
+{1: 'Sunday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day[2] = 'Monday'
+>>> print(Day)
+{1: 'Sunday', 2: 'Monday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day[3] = 'Tuesday'
+>>> print(Day)
+{1: 'Sunday', 2: 'Monday', 3: 'Tuesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day[4] = 'Wednesday'
+>>> print(Day)
+{1: 'Sunday', 2: 'Monday', 3: 'Tuesday', 4: 'Wednesday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day[5] = 'Thursday'
+>>> print(Day)
+{1: 'Sunday', 2: 'Monday', 3: 'Tuesday', 4: 'Wednesday', 5: 'Thursday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day[6] = 'Friday'
+>>> print(Day)
+{1: 'Sunday', 2: 'Monday', 3: 'Tuesday', 4: 'Wednesday', 5: 'Thursday', 6: 'Friday', 7: 'Sunday'}
+>>>
+>>> Day[7] = 'Saturday'
+>>> print(Day)
+{1: 'Sunday', 2: 'Monday', 3: 'Tuesday', 4: 'Wednesday', 5: 'Thursday', 6: 'Friday', 7: 'Saturday'}
+>>>
+
+# update () can also be used to merge two dictionaries. 
+>>> d1 = {1:5, 2:10, 3:15}
+>>> d2 = {4:20, 5:25, 6:30}
+>>> print(d1)
+{1: 5, 2: 10, 3: 15}
+>>> print(d2)
+{4: 20, 5: 25, 6: 30}
+>>>
+
+>>> d1.update(d2)                           # Merge d2 to d1
+>>> print(d1)
+{1: 5, 2: 10, 3: 15, 4: 20, 5: 25, 6: 30}
+>>> print(d2)
+{4: 20, 5: 25, 6: 30}
+>>>
+
+>>> d2.update(d1)                           # Merge d1 to d2
+>>> print(d2)
+{4: 20, 5: 25, 6: 30, 1: 5, 2: 10, 3: 15}
+>>> print(d1)
+{1: 5, 2: 10, 3: 15, 4: 20, 5: 25, 6: 30}
+>>>
+
+>>> d1.update(d2)                           # No effect as d2 is already merged to d1
+>>> print(d1)
+{1: 5, 2: 10, 3: 15, 4: 20, 5: 25, 6: 30}
+>>>
+
+
+#:-------------------------------------------- Removing Items --------------------------------------------:
+# Removing Items
+>>>
+>>> Day = {1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 4: 'Thursday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> del Day[4]                             # Remove item 4
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 5: 'Friday', 6: 'Saturday', 7: 'Sunday'}
+>>>
+>>> Day.pop(6)                             # Remove item 6
+'Saturday'
+>>> print(Day)
+{1: 'Monday', 2: 'Tuesday', 3: 'Wednesday', 5: 'Friday', 7: 'Sunday'}
+>>>
