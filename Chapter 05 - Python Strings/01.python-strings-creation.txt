@@ -1,0 +1,104 @@
+#!/usr/bin/python
+
+# Understanding Python Strings - Python Strings basics. Declearing and Creating Strings.
+
+#:---------------------------- Concept - Create Empty Strings ----------------------------:
+$ python
+>>>
+>>>
+>>> str = " "                              # Create empty strings enslosed by double(" ") quotes.
+>>> str
+' '
+>>> print(str)
+
+>>> type(str)
+<class 'str'>
+>>>
+
+>>>
+>>> newstr = ' '                          # Create empty strings enslosed by single(' ') quotes.
+>>> newstr
+' '
+>>> print(newstr)
+
+>>> type(newstr)
+<class 'str'>
+>>>
+>>>
+
+>>>
+>>> anotherstr = ''' '''                # Create empty strings enslosed by tripple(''' ''') quotes.
+>>> anotherstr
+' '
+>>> print(anotherstr)
+
+>>> type(anotherstr)
+<class 'str'>
+>>>
+>>>
+
+#:---------------------------- Concept - Creating Strings ----------------------------:
+>>>
+>>> str1 = "Python Programming"          # Create strings enslosed by tripple(" ") quotes.
+>>> str1
+'Python Programming'
+>>> print(str1)
+Python Programming
+>>> type(str1)
+<class 'str'>
+>>>
+>>> str2 = 'Happy Learning'             # Create strings enslosed by tripple(' ') quotes.
+>>> str2
+'Happy Learning'
+>>> print(str2)
+Happy Learning
+>>> type(str2)
+<class 'str'>
+>>>
+
+# Create strings enslosed by tripple(''' ''') quotes.
+
+>>> str3 = '''Python is an object orientd programming language. It is an open source high level programming language, which was developed by Guido van Rossum in 1991. It is platform-independent and can run across different platforms like Linux, Windows, Mac OS etc. Hence, Python is a portable language.'''
+>>> str3
+'Python is an object orientd programming language. It is an open source high level programming language, which was developed by Guido van Rossum in 1991. It is platform-independent and can run across different platforms like Linux, Windows, Mac OS etc. Hence, Python is a portable language.'
+>>> print(str3)
+Python is an object orientd programming language. It is an open source high level programming language, which was developed by Guido van Rossum in 1991. It is platform-independent and can run across different platforms like Linux, Windows, Mac OS etc. Hence, Python is a portable language.
+>>> type(str3)
+<class 'str'>
+>>>
+
+# Multiline and Efficient ways to create strings enslosed by tripple(''' ''') quotes.
+>>>
+>>>
+>>> str4 = '''
+... Python is an object orientd programming language.
+... It is an open source high level programming language, which was developed by Guido van Rossum in 1991.
+... It is platform-independent and can run across different platforms like Linux, Windows, Mac OS etc.
+... Hence, Python is a portable language.
+... '''
+>>>
+>>> str4
+'\nPython is an object orientd programming language.\nIt is an open source high level programming language, which was developed by Guido van Rossum in 1991.\nIt is platform-independent and can run across different platforms like Linux, Windows, Mac OS etc.\nHence, Python is a portable language.\n'
+>>>
+>>> print(str4)
+
+Python is an object orientd programming language.
+It is an open source high level programming language, which was developed by Guido van Rossum in 1991.
+It is platform-independent and can run across different platforms like Linux, Windows, Mac OS etc.
+Hence, Python is a portable language.
+
+>>>
+>>> type(str4)
+<class 'str'>
+>>>
+
+#:---------------------------- Concept - Creating Strings ----------------------------:
+# Tabulate the output
+>>> newstr = "Name\t Team\t Device\t IP"
+>>> newstr
+'Name\t Team\t Device\t IP'
+>>> print(newstr)
+Name     Team    Device  IP
+>>> type(newstr)
+<class 'str'>
+>>>
