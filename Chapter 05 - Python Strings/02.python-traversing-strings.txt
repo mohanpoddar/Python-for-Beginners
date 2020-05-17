@@ -1,0 +1,31 @@
+#!/usr/bin/python
+
+# Understanding Python Strings - Python Strings basics. Declearing and Creating Strings.
+
+#:---------------------------- Concept - Create Empty Strings ----------------------------:
+$ python
+>>>
+>>> str = "python learning"
+>>> print(str)
+python learning
+>>>
+>>> print(str[0])                   # Access character at index 0
+p
+>>> print(str[1])                   # Access character at index 1
+y
+>>> print(str[1:10])                # Access character form index 0 to 9
+ython lea
+>>> print(str[:])                   # Copy Strings 'str'
+python learning
+>>> print(str[0:])                  # Access character at index 0 to end
+python learning
+>>> print(str[2:])                  # Access character at index 2 to end
+thon learning
+>>>
+>>> print(str[-1])                  # Access character at last
+g
+>>> print(str[:-1])                 # Access all character except last  
+python learnin
+>>> print(str[0:-3])                # Access all character except last 3
+python learn
+>>>

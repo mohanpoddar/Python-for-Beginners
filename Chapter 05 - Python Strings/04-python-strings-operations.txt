@@ -1,0 +1,62 @@
+#!/usr/bin/python
+
+# Understanding Python Strings - Strings Operations
+
+#:---------------------------- Concatenating Strings ----------------------------:
+
+$ python
+>>> 'Hello ' + 'Python'
+'Hello Python'
+>>>
+>>> greet = "Good " " Morning"
+>>> print(greet)
+Good  Morning
+>>> greet = "Good " "Morning"
+>>> print(greet)
+Good Morning
+>>>
+
+#:---------------------------- Replicating Strings ----------------------------:
+>>> 5 * ' Hello'
+' Hello Hello Hello Hello Hello'
+>>>
+
+>>> 'Python' * 3
+'PythonPythonPython'
+>>>
+
+>>> 'Python ' * 3
+'Python Python Python '
+>>>
+
+
+#:---------------------------- Membership Operators ----------------------------:
+>>>
+>>> 'H' in 'Hello'                  # Check Membership of H in Hello
+True
+>>>
+>>> 'y' in 'Python'                 # Check Membership of y in Python
+True
+>>>
+>>> 'h' in 'Hello'                  # Check Membership of h in Hello ; Flase because Python is case-sensitive
+False
+>>>
+>>> 'Y' in 'Python'
+False
+>>>
+>>> 'H' not in 'Hello'
+False
+>>> 'y' not in 'Python'
+False
+>>>
+>>> 's' not in 'Hello'
+True
+>>> 'b' not in 'Python'
+True
+>>>
+
+>>> str1 = "Happy"
+>>> str2 = "Happy Learning"
+>>> str1 in str2
+True
+>>>
