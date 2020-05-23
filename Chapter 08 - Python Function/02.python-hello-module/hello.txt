@@ -1,0 +1,106 @@
+#!/usr/bin/python
+
+# Understanding Python module hello
+# hello module - "hello.py"
+
+'''
+Go the the directory where hello.py module is located.
+'''
+
+$ python
+>>> help("modules")
+
+Please wait a moment while I gather a list of all available modules...
+
+_tracemalloc        hello               readme_generator    zipapp
+
+Enter any module name to get more help.  Or, type "modules spam" to search
+for modules whose name or summary contain the string "spam".
+
+>>>
+
+
+>>> help("hello")
+
+Help on module hello:
+
+NAME
+    hello - This module for greets and good bye person at begning and the end of the programme.
+
+FUNCTIONS
+    SayBye()
+        This function Good Bye person.
+        This is to run at the end of the programme.
+
+    SayHello(name)
+        This function greets and encourage person for Python Learning.
+        This function should run in the begning of any programme.
+
+FILE
+    /home/devopsadmin/python/Python-for-Beginners/Chapter 08 - Python Function/02.python-hello-module/hello.py
+
+(END)
+
+>>>
+
+# Import hello module
+>>> import hello
+>>>
+
+# Display attributes of module hello
+>>> dir(hello)
+['SayBye', 'SayHello', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__']
+>>>
+
+# Check the type of hello attributes
+>>> type(hello)
+<class 'module'>
+>>>
+>>> type(hello.SayBye)
+<class 'function'>
+>>> type(hello.SayHello)
+<class 'function'>
+>>> type(hello.__doc__)
+<class 'str'>
+>>> type(hello.__builtins__)
+<class 'dict'>
+>>>
+>>>
+
+# print _doc__ attribute of module hello.
+>>> print(hello.__doc__)
+
+This module is for greets and good bye person at begning and the end of the programme.
+
+>>>
+>>> print(hello.__name__)
+hello
+>>>
+>>> print(hello.SayHello)
+<function SayHello at 0x7f3eb4407ae8>
+>>>
+
+# Learn more about function SayHello
+>>> dir(hello.SayHello)
+['__annotations__', '__call__', '__class__', '__closure__', '__code__', '__defaults__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__get__', '__getattribute__', '__globals__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__kwdefaults__', '__le__', '__lt__', '__module__', '__name__', '__ne__', '__new__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
+>>>
+>>> print(hello.SayHello.__annotations__)
+{}
+>>> print(hello.SayHello.__class__)
+<class 'function'>
+>>> print(hello.SayHello.__code__)
+<code object SayHello at 0x7f3ebbebaae0, file "/home/devopsadmin/python/Python-for-Beginners/Chapter 08 - Python Function/02.python-hello-module/hello.py", line 9>
+>>> print(hello.SayHello.__dir__)
+<built-in method __dir__ of function object at 0x7f3eb4407ae8>
+>>>
+>>> print(hello.SayHello.__doc__)
+
+    This function greets and encourage person for Python Learning.
+    This function should run in the begning of any programme.
+
+>>>
+>>> print(hello.SayHello.__module__)
+hello
+>>> print(hello.SayHello.__name__)
+SayHello
+>>>
