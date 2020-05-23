@@ -4,7 +4,7 @@
 # hello module - "hello.py"
 
 """
-This module for greets and good bye person at begning and the end of the programme.
+This module is for greets and good bye person at begning and the end of the programme.
 """
 def SayHello (name):
     """

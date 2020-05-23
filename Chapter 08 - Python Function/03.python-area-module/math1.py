@@ -12,5 +12,3 @@ print("Area of Circel: ", area.circle_area(7))
 print("Area of Rectangle: ", area.rectangle_area(3,4))
 
 print("Area of Square: ", area.square_area(5))
-
-
