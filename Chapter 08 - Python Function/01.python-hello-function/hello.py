@@ -8,7 +8,6 @@ def SayHello (name):
     This function greets and encourage person for Python Learning.
     This function should run in the begning of any programme.
     """
-    name = input("Write Your Name: ")
     print ("\nHello {}!" " Welocome to Python Learning...".format(name))
     print("Hey", name +  ", Say with me - Python is Awesome..!!")
     return
@@ -22,5 +21,5 @@ def SayBye ():
     return
 
 # Call a function
-SayHello('name')
+SayHello(input("Write Your Name: "))
 SayBye()

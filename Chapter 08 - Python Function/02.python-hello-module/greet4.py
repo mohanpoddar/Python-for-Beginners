@@ -4,5 +4,5 @@
 
 from hello import *
 
-SayHello('name')
+SayHello()
 SayBye()

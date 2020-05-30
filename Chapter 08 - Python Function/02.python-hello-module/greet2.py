@@ -4,4 +4,4 @@
 
 from hello import SayHello
 
-SayHello('name')
+SayHello()

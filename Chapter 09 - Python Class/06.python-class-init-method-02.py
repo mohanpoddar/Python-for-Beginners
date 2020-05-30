@@ -31,8 +31,29 @@ Computer.config(redhat)
 print('---------------------------')
 redhat.config()
 
+print()
 
+#:-------------------------------------------- Prog. - 02 --------------------------------------------:
+print("Running programme : Prog. - 02")
+class myClass:
+    def __init__(self, arg1, arg2):
+        self.var1 = arg1
+        self.var2 = arg2
 
+    def School(self):
+        print(self.var1)
+        print(self.var2)
 
+# Object StTe
+StTe = myClass('student', 'teacher')
 
+print(StTe.var2)
 
+# Object TePr
+TePr = myClass('teacher', 'principal')
+
+print("Access object StTe:")
+StTe.School()
+
+print("Access object TePr:")
+myClass.School(TePr)

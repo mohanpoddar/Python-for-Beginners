@@ -4,6 +4,5 @@
 
 import hello
 
-hello.SayHello('name')
+hello.SayHello()
 hello.SayBye()
-
