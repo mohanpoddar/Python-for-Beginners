@@ -17,23 +17,24 @@ class Employee:
 
     def email(self):
         return '{}'.format(self.email)
-        
+
+# Add an instance or object
 emp_1 = Employee('James', 'Brown', 40000)
 
 emp_2 = Employee(
     'Mike','Posner', 50000
     )
 
+emp_3 = Employee('Test', 'user', 2000,)
+
+# Access the instance 
 print(Employee.fullname(emp_1))
 print(emp_1.email)
-
 print()
 
 print(emp_2.fullname())
 print(Employee.email(emp_2))
-
-emp_3 = Employee(
-    'Test', 'user', 2000
-)
+print()
 
 print(emp_3.fullname())
+print()

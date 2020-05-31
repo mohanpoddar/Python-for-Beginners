@@ -12,12 +12,14 @@ class Employee:
         self.pay = pay
         self.email = first + '.' + last + "@email.com"
 
+# Add an instance or object
 emp_1 = Employee('James', 'Brown', 40000)
 
 emp_2 = Employee(
     'Mike','Posner', 50000
     )
 
+# Access the instance 
 print(emp_1.email)
 print(emp_2.email)
 
