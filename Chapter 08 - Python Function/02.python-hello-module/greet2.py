@@ -1,7 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Use of hello module
 
 from hello import SayHello
 
-SayHello('name')
+SayHello()

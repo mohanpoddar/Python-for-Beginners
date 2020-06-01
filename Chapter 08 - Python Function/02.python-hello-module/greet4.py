@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Use of hello module
 
 from hello import *
 
-SayHello('name')
+SayHello()
 SayBye()

@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Python List - Python list basics. Declearing and Creating List.
 
 #:-------------------------------------------- Concept --------------------------------------------:

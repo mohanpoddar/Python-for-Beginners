@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+
 """
 A module is a file containing definitions of functions, classes, variables, constants or any other Python objects. 
 Contents of this file can be made available to any other program.

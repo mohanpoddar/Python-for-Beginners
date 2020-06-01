@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding user input in python.
 
 import time

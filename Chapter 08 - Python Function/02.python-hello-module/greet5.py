@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Use of hello module - Module Aliasing
 
 import hello as hi
 
-hi.SayHello('name')
+hi.SayHello()
 hi.SayBye()
