@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Python List - python list index
 
 #:-------------------------------------------- Concept Continue... --------------------------------------------:

@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/env python
 
 # This is a simplified way of doing.
 
@@ -11,12 +11,6 @@ class Employee:
         self.last = last
         self.pay = pay
         self.email = first + '.' + last + "@email.com"
-    
-    def fullname(self):
-        return '{} {}'.format(self.first, self.last)
-
-    def email(self):
-        return '{}'.format(self.email)
 
 # Add an instance or object
 emp_1 = Employee('James', 'Brown', 40000)
@@ -25,16 +19,9 @@ emp_2 = Employee(
     'Mike','Posner', 50000
     )
 
-emp_3 = Employee('Test', 'user', 2000,)
-
 # Access the instance 
-print(Employee.fullname(emp_1))
 print(emp_1.email)
-print()
+print(emp_2.email)
 
-print(emp_2.fullname())
-print(Employee.email(emp_2))
-print()
-
-print(emp_3.fullname())
-print()
+print('{} {}'.format(emp_1.first, emp_1.last))
+print('{} {}'.format(emp_2.first, emp_2.last))

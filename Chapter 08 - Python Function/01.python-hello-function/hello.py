@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Understanding Python function and develop a function - hello
 # hello function - "hello.py"

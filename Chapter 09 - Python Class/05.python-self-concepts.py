@@ -1,4 +1,6 @@
-#!/user/bin/python
+#!/usr/bin/env python
+
+# Python class - Concept
 
 #:-------------------------------------------- Prog. - 01 --------------------------------------------:
 print("Running programme : Prog. - 01")

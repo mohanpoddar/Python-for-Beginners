@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Daat Types 'Number' in Python
 """
 There are different Data Types of variable/object in python-

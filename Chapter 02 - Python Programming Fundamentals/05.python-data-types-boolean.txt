@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Data Types in Python - bool (Boolean)
 
 # Go to the python intrective shell

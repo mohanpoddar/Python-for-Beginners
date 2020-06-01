@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Python Dictionary - Dictionary functions
 
 #:-------------------------------------------- Dictionary functions --------------------------------------------:

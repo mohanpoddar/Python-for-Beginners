@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/env python
 
 # This is a simplified way of doing.
 
@@ -30,7 +30,7 @@ class Employee:
     def company(self):                                      # Add a method company. This will apply globally
         return '{}'.format(self.company_name)
 
-class Developer(Employee):
+class Developer(Employee):                                  # A new subclass Developer
 
     raise_amt = 1.10
 
@@ -39,55 +39,15 @@ class Developer(Employee):
 # Or        Employee.__init__(self, first, last, pay)
         self.prog_lang = prog_lang
 
-class Manager(Employee):
-
-    def __init__(self, first, last, pay, employees=None):
-        super().__init__(first, last, pay)
-        if employees is None:
-            self.employees = []
-        else:
-            self.employees = employees
-    
-    def add_emp(self, emp):
-        if emp not in self.employees:
-            self.employees.append(emp)
-
-    def remove_emp(self, emp):
-        if emp in self.employees:
-            self.employees.remove(emp)
-
-    def print_emps(self):
-        for emp in self.employees:
-            print('-->', emp.fullname())
-
 # Add an instance or object
 dev_1 = Developer('James', 'Brown', 40000, 'Python')
 dev_2 = Developer('Mike','Posner', 50000, 'Java')
 
-mgr_1 = Manager('Mike', 'Smith', 90000, [dev_1])
-
-# Access Manager Data
-print(mgr_1.email)
+# Access Empoyee
+print(dev_1.fullname())
+print(dev_1.email)
+print(dev_1.pay)
+print(dev_1.prog_lang)
 print()
 
-print('\n' + 'Test1:')
-mgr_1.print_emps()              # Print number of employee reporting.
-
-print('\n' + 'Test2:')
-mgr_1.add_emp(dev_2)            # Add a new employee         
-mgr_1.print_emps()              # Print number of employee reporting.
-
-print('\n' + 'Test3:')
-mgr_1.remove_emp(dev_1)         # Remove a new employee
-mgr_1.print_emps()              # Print number of employee reporting.
-
-# Some Test
-print('\n' + 'Test4:')
-print(isinstance(mgr_1, Manager))
-print(isinstance(mgr_1, Employee))
-print(isinstance(mgr_1, Developer))
-
-print( '\n' + 'Test5:')
-print(issubclass(Developer, Employee))
-print(issubclass(Manager, Employee))
-print(issubclass(Manager, Developer))
+# In next chapter you will see one more subclass "Manager".

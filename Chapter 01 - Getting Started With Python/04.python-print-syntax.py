@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # print() is a function which is used to display the specified content on the screen.
 

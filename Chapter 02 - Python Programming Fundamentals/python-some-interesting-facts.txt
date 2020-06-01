@@ -1,6 +1,4 @@
-#!/usr/bin/python
-
-# Know more facts about Data Typesin python
+# Know more facts about Data Types in python
 
 # Go to the python intrective shell
 

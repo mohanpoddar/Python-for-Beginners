@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/env python
 
 # This is a simplified way of doing.
 
@@ -39,12 +39,40 @@ emp_2 = Employee(
 
 emp_3 = Employee('Test', 'user', 2000)
 
-# Help on class Employee
-print(help(Employee))
-
-# See the descriptors
-print(Employee.__dict__)
+# Access the instance
+print(Employee.fullname(emp_1))
+print(emp_1.email)
 print()
 
-print(emp_1.__dict__)
+print(emp_2.fullname())
+print(Employee.email(emp_2))
 print()
+
+print(emp_3.fullname())
+print()
+
+# Access Global Variable - company_name
+print("Employee emp_1 Company Name: ", Employee.company(emp_1))
+print("Employee emp_2 Company Name: ", Employee.company(emp_2))
+print("Employee emp_3 Company Name: ", Employee.company(emp_3))
+print()
+
+# Another way to access Global Variable - company_name
+print("Employee emp_1 Company Name: ", emp_1.company())
+print("Employee emp_2 Company Name: ", emp_2.company())
+print("Employee emp_3 Company Name: ", emp_3.company())
+print()
+
+# Access Class Variables: num_of_emps
+print("Total Number of Employee :", Employee.num_of_emps)
+print()
+
+# Access Class Variables: raise_amt
+print(Employee.raise_amt)
+print(emp_1.raise_amt)
+print()
+
+# Apply Raise
+print("Before Raise: ", emp_1.pay)                           # Before Raise
+emp_1.apply_raise()                                          # Apply raise
+print("After Raise: ", emp_1.pay)                            # After Raise

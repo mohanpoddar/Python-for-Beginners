@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Python Strings - Python Strings basics. Declearing and Creating Strings.
 
 #:---------------------------- Concept - Create Empty Strings ----------------------------:

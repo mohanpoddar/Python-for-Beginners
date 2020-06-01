@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Python dictionary. - Python dictionary. basics. Declearing and Creating dictionary..
 
 #:-------------------------------------------- Create Empty Dictionary --------------------------------------------:

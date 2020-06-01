@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Variable Identity in Python
 """
 Identity of the Variable:

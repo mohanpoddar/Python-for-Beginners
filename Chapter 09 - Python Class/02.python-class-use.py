@@ -1,8 +1,7 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
-# Understanding Python class
-# https://www.ics.uci.edu/~pattis/ICS-33/lectures/class.txt
-# https://www.youtube.com/watch?v=8O5kX73OkIY
+# Python class - Use
+
 #:-------------------------------------------- Prog. - 01 --------------------------------------------:
 print("Running programme : Prog. - 01")
 

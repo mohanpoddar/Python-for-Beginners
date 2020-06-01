@@ -1,4 +1,4 @@
-#!/user/bin/python
+#!/usr/bin/env python
 
 # This is a simplified way of doing.
 
@@ -30,22 +30,21 @@ class Employee:
     def company(self):                                      # Add a method company. This will apply globally
         return '{}'.format(self.company_name)
 
-class Developer(Employee):
-
-    raise_amt = 1.10
-
-    def __init__(self, first, last, pay, prog_lang):
-        super().__init__(first, last, pay)
-# Or        Employee.__init__(self, first, last, pay)
-        self.prog_lang = prog_lang
-
 # Add an instance or object
-dev_1 = Developer('James', 'Brown', 40000, 'Python')
-dev_2 = Developer('Mike','Posner', 50000, 'Java')
+emp_1 = Employee('James', 'Brown', 40000)
 
-# Access Empoyee
-print(dev_1.fullname())
-print(dev_1.email)
-print(dev_1.pay)
-print(dev_1.prog_lang)
+emp_2 = Employee(
+    'Mike','Posner', 50000
+    )
+
+emp_3 = Employee('Test', 'user', 2000)
+
+# Help on class Employee
+print(help(Employee))
+
+# See the descriptors
+print(Employee.__dict__)
+print()
+
+print(emp_1.__dict__)
 print()

@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Python Strings - Strings Operations
 
 #:---------------------------- Concatenating Strings ----------------------------:

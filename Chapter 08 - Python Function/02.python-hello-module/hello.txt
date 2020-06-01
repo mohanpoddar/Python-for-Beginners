@@ -1,4 +1,3 @@
-#!/usr/bin/python
 
 # Understanding Python module hello
 # hello module - "hello.py"

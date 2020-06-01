@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 # Understanding Keywords in Python. Keywords are reserverd words used by python interpreter to recognize the structure of a program. 
 
 # Go to the python intrective shell

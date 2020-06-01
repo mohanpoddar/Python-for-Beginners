@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # Understanding Python Conditions And Decision Making - if-elif-else statement
 
